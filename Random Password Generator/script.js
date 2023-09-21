@@ -14,6 +14,7 @@ const symbolInput = document.getElementById("symbols")
 
 
 const getRandomData = (dataSet) => {
+    console.log(Math.floor(Math.random() * dataSet.length))
     return dataSet[Math.floor(Math.random() * dataSet.length)]
 }
 
